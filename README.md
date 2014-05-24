@@ -35,7 +35,6 @@ Below, you will find the explication for the steps.
 
 ## 4. Apropriately labels the data set with descriptive activity names. 
 
-* merge the activity names
 * Convert the activity data into human-readable factors
 * Merge activity name.
 
