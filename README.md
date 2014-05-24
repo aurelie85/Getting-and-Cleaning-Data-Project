@@ -33,7 +33,7 @@ Below, you will find the explication for the steps.
   
 * Read the file 'activity_labels.txt' to add the descriptive names to the activities.
 
-#4. Apropriately labels the data set with descriptive activity names. 
+## 4. Apropriately labels the data set with descriptive activity names. 
 
 * merge the activity names
 * Add 'activityName as the key.
