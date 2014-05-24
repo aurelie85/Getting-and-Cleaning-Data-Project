@@ -42,4 +42,4 @@ Below, you will find the explication for the steps.
 
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
   
-* generate the tidy data set
+* generate the tidy data set by using the 'write.table' function
