@@ -26,7 +26,7 @@ Below, you will find the explication for the steps.
 
 * read the 'features.txt' file for the names of the variables which are mean and standard deviation
 * subset only measurements for the mean and standard deviation.
-* Convert the column numbers to a vector of variable names matching columns in `dt`.
+* Convert the column numbers to a vector of variable names matching columns in the created file.
 * Subset these variables using variable names.
 
 ## 3. Uses descriptive activity names to name the activities in the data set
@@ -36,13 +36,9 @@ Below, you will find the explication for the steps.
 ## 4. Apropriately labels the data set with descriptive activity names. 
 
 * merge the activity names
-* Add 'activityName as the key.
+* Add 'activityName' as the key.
 * Convert object into a molten data frame
 * Merge activity name.
-* Create a new variable, `activity` that is equivalent to `activityName` as a factor class.
-* Create a new variable, `feature` that is equivalent to `featureName` as a factor class.
-* Seperate features from `featureName` using the helper function `grepthis`.
-* Check to make sure all possible combinations of `feature` are accounted for by all possible combinations of the factor class variables.
 
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
   
