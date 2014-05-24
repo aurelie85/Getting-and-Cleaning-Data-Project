@@ -36,8 +36,7 @@ Below, you will find the explication for the steps.
 ## 4. Apropriately labels the data set with descriptive activity names. 
 
 * merge the activity names
-* Add 'activityName' as the key.
-* Convert object into a molten data frame
+* Convert the activity data into human-readable factors
 * Merge activity name.
 
 ## 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
